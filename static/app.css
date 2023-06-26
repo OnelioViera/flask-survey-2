@@ -1,0 +1,19 @@
+.header-title {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 35px;
+  background-color: #727274;
+  color: aliceblue;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 40px;
+}
+
+footer {
+  background-color: #727274;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: aliceblue;
+}
