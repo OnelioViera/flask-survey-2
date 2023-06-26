@@ -54,7 +54,7 @@ personality_quiz = Survey(
 
 bootcamp_quiz = Survey(
     "USF Bootcamp Questionnaire",
-    "Learn what you think about the USF Bootcamp",
+    "Learn what you think about the USF Bootcamp!",
     [
         Question("Do you find the course to be informative?"),
         Question("Do you find JavaScript to be hard or easy?"),

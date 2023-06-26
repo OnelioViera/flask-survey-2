@@ -8,7 +8,7 @@
     <div class="container text-center">
         <div class="row justify-content-md-center">
             <div class="form-group col-md-6">
-                <label>Please pick a survey to begin:</label>
+                <label class="mb-4">Please pick a survey to begin:</label>
                 <select name="survey_code" class="form-control">
                     {% for code, survey in surveys.items() %}
                     <option value="{{ code }}">{{ survey.title }}</option>
@@ -19,7 +19,7 @@
 
 </form>
 </div>
-<button class="btn btn-outline-dark btn-sm">Start Survey</button>
+<button class="btn btn-outline-dark btn-sm mt-4">Start Survey</button>
 </div>
 
 {% endblock %}
