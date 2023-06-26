@@ -9,6 +9,7 @@ Question #{{ question_num }}
 <div class="container">
     <div class="row justify-content-md-center">
         <div class="col-md-auto">
+            <!-- Question Form -->
             <form action="/answer" method="POST">
                 {% for choice in question.choices %}
                 <p>
@@ -22,6 +23,7 @@ Question #{{ question_num }}
                     <button class="btn btn-outline-dark btn-sm">Continue</button>
                 </div>
             </form>
+            <!-- End Question Form -->
         </div>
     </div>
 </div>

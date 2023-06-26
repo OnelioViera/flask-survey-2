@@ -112,7 +112,7 @@ def say_thanks():
 
     html = render_template("completion.html", survey=survey, responses=responses)
 
-    # Set cookie noting this survey is done so they can't re-do it
+    # Set cookie taking note that this survey is done so they can't re-do it
     response = make_response(html)
     response.set_cookie(f"completed_{survey_id}", "yes", max_age=60)
     return response
